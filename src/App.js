@@ -1,13 +1,15 @@
-import React from 'react';
-import Title from './components/Title';
-import TitleS from './components/TitleS';
+import React from "react";
+import FormSignupLogin from "./components/FormSignupLogin";
+import Main from "./components/Main";
+import Title from "./components/Title";
 
 function App() {
   return (
-    <>
-      <Title>Coiso</Title>
-      <TitleS>Styled-components</TitleS>
-    </>
+    <Main>
+      <Title>Signup/Login</Title>
+
+      <FormSignupLogin />
+    </Main>
   );
 }
 
